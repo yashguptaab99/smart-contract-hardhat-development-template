@@ -10,10 +10,6 @@
     "eslint.validate": ["javascript", "typescript"],
     "typescript.updateImportsOnFileMove.enabled": "always",
     "typescript.preferences.importModuleSpecifier": "non-relative",
-    "cSpell.words": [
-        "nomicfoundation",
-        "typechain",
-        "userdoc"
-    ],
+    "cSpell.words": ["nomicfoundation", "typechain", "userdoc"],
     "solidity.compileUsingRemoteVersion": "v0.8.25+commit.b61c2a91"
 }

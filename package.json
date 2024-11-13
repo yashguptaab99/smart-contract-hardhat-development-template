@@ -14,6 +14,8 @@
         "lint:fix": "npx eslint . --fix &&npx solhint 'contracts/**/*.sol' --fix",
         "format": "prettier --write .",
         "coverage": "npx hardhat coverage --solcoverjs ./.solcover.js",
+        "deploy": "hardhat run scripts/deploy.ts --network",
+        "verify": "hardhat verify --network",
         "prepare": "npx husky install"
     },
     "devDependencies": {
